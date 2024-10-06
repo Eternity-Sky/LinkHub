@@ -1,0 +1,55 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #ffe4e1; /* 柔和的粉色背景 */
+}
+
+h1 {
+    text-align: center;
+    color: #ff69b4; /* 明亮的粉红色 */
+}
+
+.link-category {
+    margin: 20px 0;
+    padding: 10px;
+    border-radius: 10px; /* 圆角 */
+    background: rgba(255, 255, 255, 0.9); /* 半透明白色背景 */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* 阴影效果 */
+}
+
+.link-category h2 {
+    color: #ff1493; /* 深粉色标题 */
+    margin-bottom: 10px;
+}
+
+a {
+    display: block;
+    margin: 5px 0;
+    padding: 12px; /* 增加内边距 */
+    background: linear-gradient(135deg, #ff99cc, #ffccff); /* 渐变背景 */
+    border-radius: 8px; /* 圆角 */
+    text-decoration: none;
+    color: #fff; /* 白色文字 */
+    transition: transform 0.3s, box-shadow 0.3s; /* 动画效果 */
+}
+
+a:hover {
+    transform: translateY(-2px); /* 悬停时轻微抬起 */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2); /* 加强阴影效果 */
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #ff69b4; /* 粉红色边框 */
+    border-radius: 5px; /* 圆角 */
+    margin-bottom: 20px; /* 下边距 */
+    font-size: 16px; /* 字体大小 */
+}
+
+input[type="text"]:focus {
+    outline: none; /* 去掉轮廓 */
+    border-color: #ff1493; /* 聚焦时边框颜色变化 */
+    box-shadow: 0 0 5px rgba(255, 20, 147, 0.5); /* 聚焦时阴影 */
+}
